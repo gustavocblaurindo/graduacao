@@ -26,15 +26,17 @@ O jogo em si é simples, representado em uma matriz com saída em texto. O foco 
 - A heurística atinge a pontuação máxima em praticamente todas as execuções nos tabuleiros pequenos (3x3, 5x5 e 7x7). Nos tabuleiros maiores, o desempenho varia mais entre execuções.
 - No tabuleiro 17x17, o algoritmo genético reduziu a melhor solução de 4572 para 3798 movimentos, uma melhora de 16,93%.
 
-**Como rodar:** o projeto é um notebook Jupyter (`JogoDaCobrinha.ipynb`), que pode ser aberto localmente ou no Google Colab. As bibliotecas usadas são `numpy`, `matplotlib` e `torch`. Basta executar as células na ordem.
+**Como rodar:** o projeto é um notebook Jupyter (`JogoDaCobrinha.ipynb`), que pode ser aberto localmente ou no Google Colab. As bibliotecas usadas são `numpy`, `matplotlib` e `torch`. Basta executar as células na ordem para o funcionamento.
 
 ---
 
 ## Jogo do Pássaro
 
-Projeto do 2º semestre, feito na Unity para aplicar a estrutura de dados **pilha**. Scripts na pasta [`JogoDoPássaro`](JogoDoPássaro).
+Projeto do 2º semestre, feito na Unity para aplicar a estrutura de dados pilha. Scripts na pasta [`JogoDoPássaro`](JogoDoPássaro).
 
-**[Jogue online aqui](https://play.unity.com/en/games/d2bf6a87-6626-4888-a2cd-12b6cd1e86cd/take-the-birds)**
+<img width="1497" height="757" alt="image" src="https://github.com/user-attachments/assets/6dff644a-e288-4078-b90f-da09082983af" />
+
+**[Clique aqui para jogar](https://play.unity.com/en/games/d2bf6a87-6626-4888-a2cd-12b6cd1e86cd/take-the-birds)**
 
 **Lógica do jogo**
 
@@ -54,7 +56,9 @@ A pilha é implementada em um vetor, com funções para verificar se está vazia
 
 ## Donkey Kong em Prolog
 
-Versão em texto do Donkey Kong feita em SWI-Prolog, com um agente automático que joga sozinho. Trabalho realizado em grupo. Código na pasta [`DonkeyKong_Prolog`](DonkeyKong_Prolog).
+Versão em texto do Donkey Kong feita em SWI-Prolog, com um agente automático que joga sozinho. Este foi um trabalho realizado em grupo. Código na pasta [`DonkeyKong_Prolog`](DonkeyKong_Prolog).
+
+<img width="405" height="317" alt="image" src="https://github.com/user-attachments/assets/f0dd46aa-ea78-4da4-97c8-f0ffd7063190" />
 
 O jogo é impresso no terminal, e o agente vai se movimentando a cada passo. O arquivo [`video.mp4`](video.mp4) mostra o agente jogando do início ao fim.
 
